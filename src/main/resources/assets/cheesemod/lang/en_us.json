@@ -1,0 +1,42 @@
+{
+  "item.cheesemod.cheese_ingot": "Cheese Ingot",
+  "item.cheesemod.cheese_straw": "Cheese Straw",
+  "item.cheesemod.sheep_identifier": "Sheep Identifier",
+  "item.cheesemod.cheese": "Cheese",
+  "item.cheesemod.molten_bucket": "Molten Cheese Bucket",
+  "item.cheesemod.cheese_chamber": "Cheese Chamber",
+  "item.cheesemod.thermic_powder_part1": "Thermic Powder Part 1",
+  "item.cheesemod.thermic_powder_part2": "Thermic Powder Part 2",
+  "item.cheesemod.thermic_powder_part3": "Thermic Powder Part 3",
+  "item.cheesemod.thermic_powder_part4": "Thermic Powder Part 4",
+  "item.cheesemod.thermic_powder": "Thermic Powder",
+  "block.cheesemod.cheese_sapling": "Cheese Sapling",
+
+
+  "block.cheesemod.cheese_crop": "Cheese Seeds",
+
+  "item.cheesemod.cheese_shovel": "Cheese Shovel",
+  "item.cheesemod.cheese_sword": "Cheese Sword",
+  "item.cheesemod.cheese_pickaxe": "Cheese Pickaxe",
+  "item.cheesemod.cheese_hoe": "Cheese Hoe",
+  "item.cheesemod.cheese_axe": "Cheese Axe",
+
+  "item.cheesemod.cheese_helmet": "Cheese Helm",
+  "item.cheesemod.cheese_chestplate": "Cheese Chestplate",
+  "item.cheesemod.cheese_leggings": "Cheese Leggings",
+  "item.cheesemod.cheese_boots": "Cheesy Feet",
+
+  "block.cheesemod.cheese_planks": "Cheese Planks",
+  "block.cheesemod.cheese_log": "Cheese Log",
+  "block.cheesemod.cheese_leaves": "Cheese Leaves",
+  "block.cheesemod.cheese_block": "Cheese Block",
+  "block.cheesemod.cheese_ore": "Cheese Ore",
+  "block.cheesemod.gloomstone": "Gloomstone",
+  "block.cheesemod.fondue": "Fondue",
+
+  "entity.cheesemod.rat": "Rat",
+  "item.cheesemod.rat_spawn_egg": "Rat Spawn Egg",
+
+  "itemGroup.courseTab": "Cheese Mod"
+
+}

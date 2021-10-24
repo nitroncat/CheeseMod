@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ccc",
+    "cww",
+    "cww"
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "cheesemod:cheese_ingot"
+    },
+    "w":
+    {
+      "item": "minecraft:white_wool"
+    }
+
+  },
+  "result":
+  {
+    "item": "cheesemod:sheep_identifier"
+  }
+}

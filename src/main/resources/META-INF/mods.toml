@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+[[mods]]
+modId="cheesemod"
+version="1.2"
+displayName="The Minecraft Cheese Mod"
+logoFile="logo.png"
+credits='''nitroncat - the mod
+Regmag - help with ideas for cheese chamber recipe
+True Penut - help with cheese powder texture
+Kaupenjoe - the tutorials that taught me modding'''
+description='''
+A mod that adds cheese to Minecraft!
+(No animals were hurt in the production of this mod!)
+'''
+[[dependencies.examplemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"

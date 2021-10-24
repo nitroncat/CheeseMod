@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " ab",
+    " cd"
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "cheesemod:thermic_powder_part1"
+    },
+    "b":
+    {
+      "item": "cheesemod:thermic_powder_part2"
+    },
+    "c":
+    {
+      "item": "cheesemod:thermic_powder_part3"
+    },
+    "d":
+    {
+      "item": "cheesemod:thermic_powder_part4"
+    }
+
+  },
+  "result":
+  {
+    "item": "cheesemod:thermic_powder"
+  }
+}

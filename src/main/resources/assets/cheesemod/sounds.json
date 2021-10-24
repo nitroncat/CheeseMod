@@ -1,0 +1,23 @@
+{
+  "rat_ambient": {
+    "category": "ambient",
+    "subtitle": "Rat Squeaks",
+    "sounds": [
+      "cheesemod:rat_ambient"
+    ]
+  },
+  "rat_death": {
+    "category": "neutral",
+    "subtitle": "Rat Death",
+    "sounds": [
+      "cheesemod:rat_death"
+    ]
+  },
+  "rat_hurt": {
+    "category": "neutral",
+    "subtitle": "Rat Hurt",
+    "sounds": [
+      "cheesemod:rat_hurt"
+    ]
+  }
+}

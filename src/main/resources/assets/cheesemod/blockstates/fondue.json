@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "cheesemod:block/fondue"},
+    "facing=south": {"model": "cheesemod:block/fondue", "y": 180},
+    "facing=west": {"model": "cheesemod:block/fondue", "y": 270},
+    "facing=east": {"model": "cheesemod:block/fondue", "y": 90}
+  }
+}

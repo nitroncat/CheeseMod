@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ccc",
+    "c c",
+    "c c"
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "cheesemod:cheese_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "cheesemod:cheese_leggings"
+  }
+}

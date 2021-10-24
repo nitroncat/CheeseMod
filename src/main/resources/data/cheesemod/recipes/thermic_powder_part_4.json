@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bbb",
+    "bbb",
+    "bbb"
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "cheesemod:cheese_block"
+    }
+
+  },
+  "result":
+  {
+    "item": "cheesemod:thermic_powder_part4"
+  }
+}

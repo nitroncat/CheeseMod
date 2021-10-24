@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "  c",
+    " c ",
+    "c  "
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "cheesemod:cheese_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "cheesemod:cheese_straw",
+    "count": 6
+  }
+}

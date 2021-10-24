@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ccc",
+    " # ",
+    " # "
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "cheesemod:cheese_ingot"
+    },
+    "#":
+    {
+      "item": "minecraft:stick"
+    }
+
+  },
+  "result":
+  {
+    "item": "cheesemod:cheese_pickaxe"
+  }
+}

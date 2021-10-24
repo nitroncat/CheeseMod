@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "javacourse:cheese_ingot",
+          "functions": [
+            {
+            "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "cheesemod:cheese_block",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cheesemod:cheese_straw",
+          "weight": 70
+        }
+      ]
+    }
+  ]
+}

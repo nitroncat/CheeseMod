@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ggg",
+    "gtg",
+    "ggg"
+  ],
+  "key":
+  {
+    "g":
+    {
+      "item": "cheesemod:gloomstone"
+    },
+    "t":
+    {
+      "item": "cheesemod:thermic_powder"
+    }
+
+  },
+  "result":
+  {
+    "item": "cheesemod:cheese_chamber"
+  }
+}
