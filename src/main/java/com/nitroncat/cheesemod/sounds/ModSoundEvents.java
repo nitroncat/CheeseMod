@@ -7,11 +7,11 @@ import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.RegistryObject;
 
 public class ModSoundEvents
-{
-    public static final RegistryObject<SoundEvent> rat_ambient =
-            Registration.SOUND_EVENTS.register("rat_ambient",
-                    () -> new SoundEvent(new ResourceLocation(CheeseMod.MOD_ID,
-                            "rat_ambient")));
+{public static final RegistryObject<SoundEvent> rat_ambient =
+        Registration.SOUND_EVENTS.register("rat_ambient",
+                () -> new SoundEvent(new ResourceLocation(CheeseMod.MOD_ID,
+                        "rat_ambient")));
+
 
     public static final RegistryObject<SoundEvent> rat_death =
             Registration.SOUND_EVENTS.register("rat_death",

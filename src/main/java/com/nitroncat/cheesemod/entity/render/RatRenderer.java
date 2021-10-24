@@ -11,7 +11,7 @@ public class RatRenderer extends MobRenderer<RatEntity, RatModel<RatEntity>>
 {
 
     public RatRenderer(EntityRendererManager renderManagerIn) {
-        super(renderManagerIn, new RatModel<>(), 0.9f);
+        super(renderManagerIn, new RatModel<>(), 0.2f);
     }
 
     @Override

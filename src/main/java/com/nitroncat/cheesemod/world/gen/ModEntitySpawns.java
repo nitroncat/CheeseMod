@@ -29,7 +29,7 @@ public class ModEntitySpawns
         {
             List<MobSpawnInfo.Spawners> base = event.getSpawns().getSpawner(EntityClassification.CREATURE);
             base.add(new MobSpawnInfo.Spawners(ModEntityTypes.RAT.get(),
-                    30, 2, 2));
+                    5, 2, 2));
         }
     }
 }
