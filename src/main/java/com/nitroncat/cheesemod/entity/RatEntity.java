@@ -41,24 +41,30 @@ public class RatEntity extends AnimalEntity
 
     @Nullable
     @Override
-    protected SoundEvent getAmbientSound() {
-        return ModSoundEvents.RAT_AMBIENT.get();
+    protected SoundEvent getAmbientSound()
+    {
+        this.playSound(ModSoundEvents.rat_ambient.get(), 1.0F, 1.0F);
+        return null;
     }
 
     @Nullable
     @Override
     protected SoundEvent getDeathSound() {
-        return ModSoundEvents.RAT_DEATH.get();
+        this.playSound(ModSoundEvents.rat_death.get(), 1.0F, 1.0F);
+        return null;
     }
 
     @Nullable
-    protected SoundEvent getHurtSound() {
-        return ModSoundEvents.RAT_HURT.get();
+    @Override
+    protected SoundEvent getHurtSound(DamageSource damageSourceIn)
+    {
+        this.playSound(ModSoundEvents.rat_hurt.get(), 1.0F, 1.0F);
+        return null;
     }
 
     @Override
     protected void playStepSound(BlockPos pos, BlockState blockIn) {
-        this.playSound(SoundEvents.ENTITY_WOLF_STEP, 0.1f, 1f);
+        this.playSound(SoundEvents.ENTITY_WOLF_STEP, 0.1F, 1.0F);
     }
 
     @Override
