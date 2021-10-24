@@ -12,7 +12,7 @@ public class ModEntityTypes
 {
     public static final RegistryObject<EntityType<RatEntity>> RAT = Registration.ENTITIES.register("rat",
             () -> EntityType.Builder.create(RatEntity::new, EntityClassification.CREATURE)
-                    .size(0.3f, 0.2f)
+                    .size(0.6f, 0.4f)
                     .func_233607_a_(ModFluids.MOLTEN_BLOCK.get())
                     .build(new ResourceLocation(CheeseMod.MOD_ID + "rat").toString()));
 

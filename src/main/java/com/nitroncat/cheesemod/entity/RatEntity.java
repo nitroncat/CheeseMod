@@ -81,11 +81,9 @@ public class RatEntity extends AnimalEntity
         this.goalSelector.addGoal(8, new MeleeAttackGoal(this, 2D, true));
     }
 
-    @Nullable
     @Override
     public AgeableEntity createChild(ServerWorld world, AgeableEntity mate)
     {
         return ModEntityTypes.RAT.get().create(this.world);
     }
-
 }
